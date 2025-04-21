@@ -59,10 +59,10 @@ public class Book {
     }
 
     // Method to check out the book
-    public void checkOut(String user) {
+    public void checkOut(String name) {
         if (!isCheckedOut) {
             isCheckedOut = true;
-            checkedOutTo = user;
+            checkedOutTo = name;
         } else {
             System.out.println("Book is already checked out to " + checkedOutTo);
         }
@@ -71,7 +71,7 @@ public class Book {
     public void checkIn() {
         if (isCheckedOut) {
             isCheckedOut = false;
-            checkedOutTo = null;
+            checkedOutTo = "";
         } else {
             System.out.println("Book is already checked in.");
         }
