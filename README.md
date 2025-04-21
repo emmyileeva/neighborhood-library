@@ -36,3 +36,8 @@ This project is a Java console application that simulates a neighborhood library
             System.out.println("Book is already checked out to " + checkedOutTo);
         }
     }
+```
+
+## 💡 Why it's interesting
+This method clearly handles the logic of checking out a book, but it also prevents users from checking out a book that's already checked out. It's a great example of simple yet effective control flow using conditionals to protect program behavior and ensure data integrity.
+
