@@ -6,7 +6,7 @@ public class Main {
         // Create array to hold 20 books
         Book[] books = new Book[20];
 
-        // Initialize books with sample data
+        // Initialize books with data
         books[0] = new Book(1, "978-0-06-245773-8", "The Silent Patient");
         books[1] = new Book(2, "978-1-250-30690-5", "The Guest List");
         books[2] = new Book(3, "978-1-5011-5464-5", "The Woman in the Window");
